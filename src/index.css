@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #627254;
+  text-align: center;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #76885B;
+  padding: 5px 0;
+  
+}
+
+.nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.nav li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #DDDDDD;
+  font-weight: bold;
+}
+
+.nav a:hover {
+  color: #627254;
+}
+
+
+.exercises {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Adds space between each exercise box */
+  max-width: 600px; /* Limits the width of the exercise cards */
+  margin: auto; /* Center the cards */
+}
+
+.each_exercise li {
+  background-color: #f2f2f2; /* Light grey background for each exercise card */
+  border: 1px solid #ccc; /* Border to distinguish cards */
+  padding: 20px;
+  display: block; /* Ensures that children stack vertically */
+}
+
+.each_exercise strong {
+  display: block; /* Makes the exercise name a block element, pushing the description below */
+  margin-bottom: 10px; /* Space between the name and description */
+  color: #333; /* Dark text for better readability */
+  font-size: 18px; /* Larger font size for headings */
+}
+
+.each_exercise span {
+  font-size: 16px; /* Slightly smaller font size for description */
+  line-height: 1.4; /* Improved line spacing for readability */
+}
+
+.button {
+  font-size: 20px;
+  margin-left: 60px;
+ 
+}
+
+.logout_button {
+  font-size: 20px;
+}
+
+.log_in {
+  font-size: 20px;
+  margin-right: 4px;
+}
+
+.sign_up {
+  font-size: 20px;
+  margin-top: 10px;
+  
+}
+
